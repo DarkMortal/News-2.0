@@ -5,3 +5,9 @@
 ### In windows:- Paste the PHP Folder inside the htdocs folder of XAMPP <br>
 ### In Ubuntu:- Paste the PHP Folder inside the /var/www/html folder. <br> Don't forget to update the permissions of all the folders (inclusing the Resource Folder) using the command:-
     sudo chmod +rwx "Folder-Name" 
+To start Apache service:-
+
+    sudo service apache2 start
+To install required dependencies:-
+
+    sudo apt install php php-mysql libapache2-mod-php apache2

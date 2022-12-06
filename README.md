@@ -11,7 +11,7 @@ To install tailwindcss globally (in Ubuntu 20.4)
     sudo npm install tailwindcss -g
 To compile Tailwind.css:-
 
-    tailwindcss -o "Resources"/Tailwind.css
+    tailwindcss -o Resources/Tailwind.css
 To start Apache service:-
 
     sudo service apache2 start

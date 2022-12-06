@@ -309,6 +309,7 @@ function Technology_indexer(index){
 }
 
 window.onload=()=>{
+	document.getElementById("DOB").max = new Date().toISOString().split('T')[0];
 	var elm=document.getElementById("no_of_articles");
 	var str="";
 	for(var i=0;i<100;i++) str+=`<option>`+(i+1).toString()+`</option>`;

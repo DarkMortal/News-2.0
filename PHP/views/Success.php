@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="Resources/Tailwind.css">
+    <link rel="stylesheet" href="./Resources/Tailwind.css">
     <title>BBC News Network</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -24,14 +24,14 @@
     <script src="./Resources/Alert.js"></script>
     <script>
           swal({
-          title: "Email Already Present",
-          text: "Someone else is already using that Email",
-          icon: "warning",
-          button: "CLOSE"
+          title: "SUCCESS!!!",
+          text: "You have been Sucessfully Registered",
+          icon: "success",
+          button: "THANK YOU"
           });
     </script>
     
-<section class="text-gray-500 bg-gray-900 body-font" style="background-image: url('Resources/Image.jpg'); background-repeat: no-repeat;">
+<section class="text-gray-500 bg-gray-900 body-font" style="background-image: url('./Resources/Image.jpg'); background-repeat: no-repeat;">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black" style="text-align: center;">BBC News Network <br><u>In search of the Truth</u></h1>
@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" src="Resources/News.png" style="width: 60%; height: 60%; display: block; margin: auto;">
+      <img class="object-cover object-center rounded" src="./Resources/News.png" style="width: 60%; height: 60%; display: block; margin: auto;">
     </div>
   </div>
 </section>
@@ -81,7 +81,7 @@
 <section class="text-gray-500 bg-gray-900 body-font overflow-hidden" id="NEWS"></section>
 <div style="text-align: center; width: 100%; background-color: #1a202c; display: block;"><div style="width: fit-content; display: inline-flex;"><h3 id="indexes"></h3></div></div>
 
-<section class="text-gray-400 bg-gray-900 body-font" style="background-image: url('Resources/FooterIMG.jpg'); background-repeat: no-repeat;">
+<section class="text-gray-400 bg-gray-900 body-font" style="background-image: url('./Resources/FooterIMG.jpg'); background-repeat: no-repeat;">
   <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
     <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0" style="background: rgba(0,0,0,0.45); padding: 10px; border-radius: 10px; color: white;">
       <h1 class="title-font font-medium text-3xl text-white">Created & Designed by Saptarshi Dey</h1>
@@ -94,7 +94,7 @@
       <input class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" style="width: 100%;" name="userName" placeholder="Enter your Name" type="text" required/>
       <div style="display: inline-block;">
       	<b>D.O.B:-</b>
-      	 <input class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" style="width: 100%;" name="DOB" type="date" required/>
+      	 <input class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" style="width: 100%;" name="DOB" type="date" required id="DOB"/>
       </div>
       <div style="display: inline-block;"><b>Subscription:-</b>
       <select class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" name="subs" style="width: 100%;">

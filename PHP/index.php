@@ -84,7 +84,7 @@
       <input class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" style="width: 100%;" name="userName" placeholder="Enter your Name" type="text" required/>
       <div style="display: inline-block;">
       	<b>D.O.B:-</b>
-      	 <input class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" style="width: 100%;" name="DOB" type="date" required/>
+      	 <input class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" style="width: 100%;" name="DOB" type="date" required id="DOB"/>
       </div>
       <div style="display: inline-block;"><b>Subscription:-</b>
       <select class="bg-gray-900 rounded border text-white border-gray-900 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4" name="subs" style="width: 100%;">

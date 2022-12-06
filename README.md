@@ -5,6 +5,13 @@
 ### In windows:- Paste the PHP Folder inside the htdocs folder of XAMPP <br>
 ### In Ubuntu:- Paste the PHP Folder inside the /var/www/html folder. <br> Don't forget to update the permissions of all the folders (inclusing the Resource Folder) using the command:-
     sudo chmod +rwx "Folder-Name" 
+
+To install tailwindcss globally (in Ubuntu 20.4)
+
+    sudo npm install tailwindcss -g
+To compile Tailwind.css:-
+
+    tailwindcss -o "Resources"/Tailwind.css
 To start Apache service:-
 
     sudo service apache2 start

@@ -5,8 +5,8 @@ try{
  for($i=0;$i<5;$i++) { if(empty($Record[$i])) $sum=$sum+1; }
  if($sum!=0) include("./views/Error.php");
  else{
-    $MySqlPass="9051634859"; $DbName="NEWS";
-    $conn=new mysqli("localhost","User_69",$MySqlPass,$DbName);
+    $MySqlPass="KAMEHAMEHA"; $DbName="NEWS";
+    $conn=new mysqli("localhost","darkmortal",$MySqlPass,$DbName);
     $SELECT="select *from SUBSCRIBERS where Email='".$Record[1]."' OR UserName='".$Record[0]."';";
     $stmn=$conn->prepare($SELECT);
     $stmn->execute();
